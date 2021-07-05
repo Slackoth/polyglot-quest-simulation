@@ -25,27 +25,27 @@ EndElements
 Dirichlet_X
 *Set Cond Dirichlet_X *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(T,real)
+*NodesNum *cond(w_x,real)
 *end nodes
 EndDirichlet
 
 Dirichlet_Y
 *Set Cond Dirichlet_Y *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(T,real)
+*NodesNum *cond(w_y,real)
 *end nodes
 EndDirichlet
 
 Dirichlet_Z
 *Set Cond Dirichlet_Z *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(T,real)
+*NodesNum *cond(w_z,real)
 *end nodes
 EndDirichlet
 
 Neumann
 *Set Cond Neumann *nodes
 *loop nodes *OnlyInCond
-*NodesNum *cond(dTdn,real)
+*NodesNum *cond(dwdn,real)
 *end nodes
 EndNeumann
