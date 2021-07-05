@@ -5,10 +5,8 @@
 *set var NDY=CondNumEntities(int)
 *Set Cond Dirichlet_Z *nodes
 *set var NDZ=CondNumEntities(int)
-' *set var ND=*NDX+*NDY+*NDZ
 *Set Cond Neumann *nodes
 *set var NN=CondNumEntities(int)
-' *npoin *nelem *ND *NN
 *npoin *nelem *NDX *NDY *NDZ *NN
 
 Coordinates
